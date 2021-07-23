@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #383838;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #ff3600;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-text {
+  padding-top: 12vh;
+  padding-bottom: 12vh;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+h1 {
+  font-size: 12vh;
+}
+
+img {
+  min-width: 98vw;
+  height: auto;
+  opacity: 0.5;
+}
+
+.text-color {
+    color: #ff3600;
+}
