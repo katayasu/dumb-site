@@ -1,0 +1,56 @@
+@charset "utf-8";
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #383838;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #ff3600;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+main {
+  position: relative;
+}
+
+.main-text {
+  padding-top: 8.5%;
+  position: absolute;
+  text-align: center;
+  margin: auto 0;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+.huytinka {
+  background-image: url(../huimages/huygroundPC.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  padding-top: 2%;
+  width: 90vw;
+  height: 90vh;
+  opacity: 0.5;
+}
+
+.text-color {
+    color: #ff3600;
+}
