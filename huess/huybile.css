@@ -115,5 +115,7 @@ h1 {
       color: #ff3600;
   }
   
-
+audio {
+  display: none;
 }
+
