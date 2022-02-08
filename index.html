@@ -20,13 +20,10 @@
           САЙТ ТОЛЬКО ПОТОМУ ЧТО Я
           <a href="https://shikimori.one/katayasu/">АХУИТЕЛЬНЫЙ</a></h1>
     </div>
-      <video id="myaudio" controls="" loop="" autoplay="" name="media" preload="auto" hidden>
-        <source src="huyaudio/OST.mp3" type="audio/mp3">
-      </video>
-      <script>
-         let audio = document.getElementById("myaudio");
-         audio.volume = 0.2;
-      </script>
+      <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+      <audio id="player" autoplay loop>
+         <source src="huyaudio/OST.mp3" type="audio/mp3">
+      </audio>
     </main>
 </body>
 </html>
