@@ -8,11 +8,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-audio, embed {
-    position: absolute;
-    z-index: -9999;
-}
-
 p,
 ul {
   margin: 0;
